@@ -1,5 +1,5 @@
 const { json } = require("stream/consumers")
-const {objectFill,jsonFill} = require("./index")
+const {objectFill,jsonFill} = require('@tush-tr/jsonmapper')
 const targetObj = {
     name: "Rahul",
     class: 12

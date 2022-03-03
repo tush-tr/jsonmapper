@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/issues/tush-tr/jsonMapper"> <img src="https://img.shields.io/github/forks/tush-tr/jsonMapper"> <img src="https://img.shields.io/github/license/tush-tr/jsonMapper"> <img src="https://img.shields.io/github/stars/tush-tr/jsonMapper"> <a href="https://twitter.com/tush_tr604" target="blank"><img src="https://img.shields.io/twitter/follow/tush_tr604?logo=twitter&style=flat" alt="tush_tr604" /></a> <img src="https://img.shields.io/github/languages/count/tush-tr/jsonMapper">
+<img src="https://img.shields.io/github/issues/tush-tr/jsonmapper"> <img src="https://img.shields.io/github/forks/tush-tr/jsonmapper"> <img src="https://img.shields.io/github/license/tush-tr/jsonmapper"> <img src="https://img.shields.io/github/stars/tush-tr/jsonmapper"> <a href="https://twitter.com/tush_tr604" target="blank"><img src="https://img.shields.io/twitter/follow/tush_tr604?logo=twitter&style=flat" alt="tush_tr604" /></a> <img src="https://img.shields.io/github/languages/count/tush-tr/jsonmapper">
 
 # JsonMapper
 A nodejs library which allows you to assign a json file values with another json file and create a new desired json file.
@@ -11,7 +11,7 @@ npm install @tush-tr/jsonMapper
 ## Import the package
 
 ```js
-const {objectFill,jsonFill} = require('@tush-tr/jsonMapper')
+const {objectFill,jsonFill} = require('@tush-tr/jsonmapper')
 ```
 
 ## Functions
@@ -25,7 +25,7 @@ const desiredObj = objectFill(target, source)
 #### Example:
 
 ```js
-const {objectFill,jsonFill} = require('@tush-tr/jsonMapper')
+const {objectFill,jsonFill} = require('@tush-tr/jsonmapper')
 const targetObj = {
     name: "Rahul",
     class: 12
