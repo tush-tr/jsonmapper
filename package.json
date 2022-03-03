@@ -1,6 +1,6 @@
 {
   "name": "@tush-tr/jsonmapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodejs library which allows you to assign a json file values with another json file and create a new desired json file.",
   "main": "index.js",
   "scripts": {
